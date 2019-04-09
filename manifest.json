@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "NSNote",
+    "description": "Plugin for Note",
+    "version": "1.0",
+    "icons":
+    {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+
+    "permissions":["tabs","<all_urls>"],
+
+    "browser_action": {
+        "default_title": "NSNote",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    }
+}
